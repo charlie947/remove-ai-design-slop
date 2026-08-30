@@ -289,11 +289,20 @@ Sections get named the way a reference document would: a plain noun phrase, no v
 
 If the user hands over a paragraph, cut it into single-line rules and show them the list before building anything.
 
-## The Sources block is the proof
+## End it with real quotes
 
-Real reference documents carry citations. Yours carries direct quotes with dates.
+Every reference document ends with a list of sources. Yours does the same, and this is the bit that makes the graphic theirs rather than a template.
 
-Pull them from wherever the rules came from: their own feedback, client notes, code review comments, support tickets.
+Each rule on the graphic came from somewhere. Somebody said it to them, or they wrote it down after something went wrong. Find four to six of those actual sentences, add the date each one was said, and put them in a numbered list at the bottom of the graphic.
+
+They look like this:
+
+```
+1. "I never ever used the loop arrow. I hate seeing that." (18/06/2026)
+2. "I don't like the power ending you've added here." (25/08/2026)
+```
+
+Client feedback, a message from their boss, a code review comment, a support ticket, a note to themselves. Anywhere the rule actually came from.
 
 This is the hardest step in the skill and it is not a lookup. The quote and its date are almost never adjacent. The quote sits in prose and the date sits in a heading, a commit, a filename or the sentence before it. So search for the quotes first and resolve dates second.
 
@@ -309,7 +318,7 @@ A quote whose date you cannot find does not go in. Ship four sourced rather than
 
 Never invent one. An entry with four true citations beats one with six invented, and the difference is visible to anyone reading carefully.
 
-This is the part nobody can copy. A stranger can rebuild the layout in an hour. They cannot produce six dated quotes from inside someone else's work.
+Anyone can rebuild the layout in an hour. Nobody can rebuild those, because they happened to the person who wrote them down.
 
 ## Build the chrome
 
